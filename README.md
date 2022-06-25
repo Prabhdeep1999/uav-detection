@@ -37,6 +37,7 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
 
    1. Tiling: [[Link]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/UAVision/Unel_The_Power_of_Tiling_for_Small_Object_Detection_CVPRW_2019_paper.pdf "https://openaccess.thecvf.com/content_CVPRW_2019/papers/UAVision/Unel_The_Power_of_Tiling_for_Small_Object_Detection_CVPRW_2019_paper.pdf")
    2. Use of GANs: [[Link]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Generative_Modeling_for_Small-Data_Object_Detection_ICCV_2019_paper.pdf "https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Generative_Modeling_for_Small-Data_Object_Detection_ICCV_2019_paper.pdf")
+5. Following are the evaluation metrics of the object detection:
 
 | train/box_loss | train/obj_loss | train/cls_loss | metrics/precision | metrics/recall | metrics/mAP_0.5 | metrics/mAP_0.5:0.95 | val/box_loss | val/obj_loss | val/cls_loss | x/lr0     | x/lr1     | x/lr2     |
 | -------------- | -------------- | -------------- | ----------------- | -------------- | --------------- | -------------------- | ------------ | ------------ | ------------ | --------- | --------- | --------- |
