@@ -17,8 +17,9 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
    1. The main bottleneck was GPU and hence we needed a better GPU or a way to optimize the use of CPU+GPU.
    2. The machine was getting too hot (>90 deg C) within 45 minutes of continuous operation so an industry grade or military grade hardware was required.
    3. The best embedded hardware according to the benchmark is Nvidia Jetson Xavier AGX: [[Link]](https://developer.nvidia.com/embedded/jetson-agx-xavier-i "https://developer.nvidia.com/embedded/jetson-agx-xavier-i")
-
-`<img src="images/README/output_indivudal_cpu.jpg" alt="drawing" width="240" height="135"/><img src="image/README/total_cpu_utilization.jpg" alt="drawing" width="240" height="135"/>``<img src="image/README/total_gpu_utilization.jpg" alt="drawing" width="240" height="135"/><img src="image/README/total_ram_utilization.jpg" alt="drawing" width="240" height="135"/>`
+5. Following are the benchmarks done on Jetson TX2:
+<img src="images/README/output_indivudal_cpu.jpg" alt="output_indivudal_cpu" width="480" height="270"/><img src="images/README/total_cpu_utilization.jpg" alt="total_cpu_utilization" width="480" height="270"/>
+<img src="images/README/total_gpu_utilization.jpg" alt="total_gpu_utilization" width="480" height="270"/><img src="images/README/total_ram_utilization.jpg" alt="total_ram_utilization" width="480" height="270"/>
 
 **Work in Progress:**
 
