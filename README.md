@@ -23,8 +23,8 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
    3. The best embedded hardware according to the benchmark is Nvidia Jetson Xavier AGX: [[Link]](https://developer.nvidia.com/embedded/jetson-agx-xavier-i "https://developer.nvidia.com/embedded/jetson-agx-xavier-i")
 5. Following are the benchmarks done on Jetson TX2 (For a more detailed description on hardware problem description check [hardware_problem_description.pdf](docs/hardware_problem_description.pdf)):
 
-<img src="images/README/output_indivudal_cpu.jpg" alt="output_indivudal_cpu" width="480" height="270"/><img src="images/README/total_cpu_utilization.jpg" alt="total_cpu_utilization" width="480" height="270"/>
-<img src="images/README/total_gpu_utilization.jpg" alt="total_gpu_utilization" width="480" height="270"/><img src="images/README/total_ram_utilization.jpg" alt="total_ram_utilization" width="480" height="270"/>
+<img src="images/README/output_indivudal_cpu.jpg" alt="output_indivudal_cpu" width="360" height="202"/><img src="images/README/total_cpu_utilization.jpg" alt="total_cpu_utilization" width="360" height="202"/>
+<img src="images/README/total_gpu_utilization.jpg" alt="total_gpu_utilization" width="360" height="202"/><img src="images/README/total_ram_utilization.jpg" alt="total_ram_utilization" width="360" height="202"/>
 
 **Work in Progress:**
 
@@ -48,7 +48,7 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
 | 0.027355       | 0.0039657      | 0              | 0.989             | 0.98299        | 0.98849         | 0.66212              | 0.021445     | 0.0023965    | 0            | 0.0091406 | 0.0091406 | 0.0091406 |
 
 
-<img src="images/README/labels_correlogram.jpg" alt="labels_correlogram" width="480" height="270"/><img src="images/README/labels.jpg" alt="labels" width="480" height="270"/>
+<img src="images/README/labels_correlogram.jpg" alt="labels_correlogram" width="360" height="202"/><img src="images/README/labels.jpg" alt="labels" width="360" height="202"/>
 
 
 * ***Drone vs Bird Classification:***
