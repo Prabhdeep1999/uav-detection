@@ -2,6 +2,10 @@
 
 Drone / Unmanned Aerial Vehicle (UAV) Detection is a very safety critical project. It takes in Infrared (IR) video streams and detects drones in it with high accuracy.
 
+
+<p align="center"><img src="inference_vids/inference_custom_data.gif" alt="output_indivudal_cpu" width="480" height="270"/></p>
+
+
 **Scope:**
 
 Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the project is to make a real-time embedded drone detection system for a flying vehicle from the infrared data. The model should detect UAV in presence of varying UAV sizes/types, altitudes, distances and lighting conditions.
@@ -43,6 +47,10 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
 | -------------- | -------------- | -------------- | ----------------- | -------------- | --------------- | -------------------- | ------------ | ------------ | ------------ | --------- | --------- | --------- |
 | 0.027355       | 0.0039657      | 0              | 0.989             | 0.98299        | 0.98849         | 0.66212              | 0.021445     | 0.0023965    | 0            | 0.0091406 | 0.0091406 | 0.0091406 |
 
+
+<img src="images/README/labels_correlogram.jpg" alt="labels_correlogram" width="480" height="270"/><img src="images/README/labels.jpg" alt="labels" width="480" height="270"/>
+
+
 * ***Drone vs Bird Classification:***
 
 1. A classification model based on trajectory of the drone.
@@ -65,3 +73,8 @@ Real-time Unmanned Aerial Vehicle (UAV) detection system. The objective of the p
    2. [AIMET by Qualcomm](https://quic.github.io/aimet-pages/index.html "https://quic.github.io/aimet-pages/index.html"): This is another toolkit which is very promising but didn’t got much chance to explore it due to time crunch
    3. [TAO by Nvidia:](https://developer.nvidia.com/tao "https://developer.nvidia.com/tao"): This is a toolkit which can be very fruitful but again didn’t explore it much due to time crunch.
    4. [TensorRT:](https://developer.nvidia.com/tensorrt%22%20/l%20%22:~:text=NVIDIA%20%C2%AE%20TensorRT%E2%84%A2%20is,for%20deep%20learning%20inference%20applications. "https://developer.nvidia.com/tensorrt&quot; \l &quot;:~:text=NVIDIA%20%C2%AE%20TensorRT%E2%84%A2%20is,for%20deep%20learning%20inference%20applications.") This is the tool we worked with and its complete setup is already in Nvidia Jetson TX2.
+
+
+PR's are welcome!
+
+Git: [https://github.com/Prabhdeep1999/uav-detection](https://github.com/Prabhdeep1999/uav-detection)
